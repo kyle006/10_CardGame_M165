@@ -32,7 +32,9 @@ public class ViewController {
         rightCarList.clear();
 
         // Aufgabe 4: zu MongoDB wechseln
-        CardDBConnector cdb = new CardDBConnector();
+
+        //CardDBConnector cdb = new CardDBConnector();
+        var cdb = new CardNoSQLConnector();
         List<Car> allCars = cdb.getCarsFromDB();
 
         // Karten random verteilen
