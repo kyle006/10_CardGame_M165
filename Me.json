@@ -1,0 +1,10 @@
+{
+  "Vorname": "Kyle",
+  "Nachname": "Meier",
+  "Alter": 17,
+  "Wohnort": {
+    "Land": "Schweiz",
+    "Ort": "Nürensdorf",
+    "PLZ": 8309
+  }
+}
